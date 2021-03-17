@@ -1,0 +1,137 @@
+body {
+  padding-top: 1px;
+}
+/* andjelismrenoge/ */
+#headerWrapper{
+  position: relative;
+  padding:0;
+  margin: 0;
+  overflow: hidden;
+  height: 900px;
+  background-image: url(../images/headerlogo/backgroundJarn.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%  1000px;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+/* andjelismrenoge*/
+#logotext{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-image:  url(../images/headerlogo/logo2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 200px;
+  background-position:top center;
+  top: 50%;
+  left:45%;
+  margin-top: -90px;
+}
+/* ovo mi ne treba necu to ali da ga imam */
+/* #fore-svinja{
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  background-image: url(../images/headerlogo/svinja.png);
+  background-size: auto 200px ;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  top: 525px;
+  right:-50px;
+}
+#back-flower{
+  position: absolute;
+  width: 10%;
+  height: 350px;
+  background-image: url(../images/headerlogo/koza.png);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: auto 350px;
+  top: 400px;
+  left: -25px;
+
+} */
+
+/* andjelismrenoge/category.php */
+#partial-headerWrapper{
+  position: relative;
+  padding:0;
+  margin: 0;
+  overflow: hidden;
+  height: 250px;
+  background-image: url(../images/headerlogo/backgroundJarn.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%  1000px;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+/* andjelismrenoge/category.php */
+#partial-logotext{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-image:  url(../images/headerlogo/logo2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 200px;
+  background-position:top center;
+  top: 50%;
+  left:45%;
+  margin-top: -90px;
+}
+.img-thumbnail{
+  width:auto;
+  height: auto;
+}
+
+#footer{
+  margin-top: 50px;
+}
+fotorama__wrap{
+  width:60%;
+  margin:15px auto
+}
+
+.table-auto{
+  width: auto;
+  margin:0 auto;
+
+}
+.text-middle{
+  text-align: center;
+}
+/* /andjelismrenoge/admin/products */
+#add-product-btn{
+  margin-top: -35px;
+}
+.saved_image {
+  text-align: center;
+}
+.saved-image img{
+  width: auto;
+  max-height: 180px;
+}
+/*  /andjelismrenoge/admin/login.php */
+#login-form{
+  width: 50%;
+  height: 60%;
+  border: 2px solid #000;
+  border-radius: 15px;
+  box-shadow:  7px 7px 15px rgba(0, 0, 0, 0.6);
+  margin: 5%;
+  margin-left: 200px;
+  padding: 15px;
+  background-color:  #fff;
+}
+/* pomeranje dugmica u users */
+#bio-red-da-probam{
+  margin-top: 25px;
+}
+#cart_widget td{
+  font-size: 12px;
+}
+/* ova govna se vrv ne pozivajiu valjano nmg se drkam sa njima */
+input.price-range{
+  width: 55px;
+}
